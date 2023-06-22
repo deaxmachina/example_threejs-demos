@@ -2,8 +2,9 @@
   import { onMount } from 'svelte'
   import * as THREE from 'three'
   import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-  export let id
   import gsap from 'gsap'
+
+  export let id = 'id'
 
 
   onMount(() => {

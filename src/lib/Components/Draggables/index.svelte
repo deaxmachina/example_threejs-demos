@@ -2,7 +2,7 @@
   import { onMount } from 'svelte'
   import * as THREE from 'three'
   import { DragControls } from 'three/examples/jsm/controls/DragControls'
-  export let id
+  export let id = 'id'
 
   onMount(() => {
     // Sizes

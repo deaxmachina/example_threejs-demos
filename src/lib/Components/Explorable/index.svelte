@@ -2,7 +2,7 @@
   import { onMount } from 'svelte'
   import * as THREE from 'three'
   import { TrackballControls } from 'three/examples/jsm/controls/TrackballControls.js'
-  export let id
+  export let id = 'id'
 
   onMount(() => {
     // Sizes
